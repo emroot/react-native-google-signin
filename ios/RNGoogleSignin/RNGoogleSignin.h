@@ -4,7 +4,7 @@
 #import "RCTBridgeModule.h"
 #import "RCTConvert.h"
 
-#import <GoogleSignIn/GoogleSignIn.h>
+#import <Google/SignIn.h>
 
 @interface RNGoogleSignin : NSObject<RCTBridgeModule, GIDSignInDelegate, GIDSignInUIDelegate>
 
